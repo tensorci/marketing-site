@@ -18,7 +18,7 @@
     "react-scripts": "1.0.7"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=9000 react-scripts start",
     "build": "react-scripts build && ./node_modules/hjson/bin/hjson -j static.hjson > static.json",
     "eject": "react-scripts eject",
     "sass": "sass --watch src/styles/scss/index.scss:src/styles/css/index.css",
