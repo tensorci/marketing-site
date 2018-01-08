@@ -5,12 +5,12 @@ import FooterLinkSection from './FooterLinkSection';
 const linkSections = {
   quokka: [
     ['/', 'Overview'],
-    ['mailto:support@myappemail.com', 'Support'],
-    ['mailto:team@myappemail.com', 'Contact']
+    ['mailto:support@tensorci.com', 'Support'],
+    ['mailto:team@tensorci.com', 'Contact']
   ],
   company: [
     ['/', 'About'],
-    ['/faq', 'FAQ']
+    ['/', 'FAQ']
   ],
   legal: [
     ['/', 'Terms of Service'],
@@ -24,7 +24,7 @@ class Footer extends Component {
       <footer>
         <div className="container-fluid">
           <div className="row">
-            <FooterLinkSection classes={['col-md-3', 'col-sm-3', 'col-xs-6']} title="MyAppName" links={linkSections.quokka} />
+            <FooterLinkSection classes={['col-md-3', 'col-sm-3', 'col-xs-6']} title="TensorCI" links={linkSections.quokka} />
             <FooterLinkSection classes={['col-md-3', 'col-sm-3', 'col-xs-6']} title="Company" links={linkSections.company} />
             <FooterLinkSection classes={['col-md-3', 'col-sm-3', 'col-xs-6']} title="Legal" links={linkSections.legal} />
             <div className="footer-section col-md-3 col-sm-3 col-xs-6">
@@ -40,7 +40,7 @@ class Footer extends Component {
                     <i className="fa fa-instagram"></i>
                   </a>
                 </div>
-                <div className="copyright">© 2017 MyAppName, Inc.</div>
+                <div className="copyright">© 2017 TensorCI, Inc.</div>
               </div>
             </div>
           </div>

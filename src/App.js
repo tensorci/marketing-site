@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div id="appContainer" className={document.location.pathname.split('/')[1]}>
-        <Header />
+        <Header fixed={true} />
         <Main />
         <Footer />
       </div>

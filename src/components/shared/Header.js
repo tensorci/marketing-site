@@ -10,29 +10,29 @@ class Header extends Component {
   }
   
   getLinks() {
-    var links;
+    var links = [];
 
-    if (Session.authed()) {
-      links = [
-        {
-          text: 'Public Link',
-          href: '/public-link',
-          featured: true
-        },
-        {
-          text: 'Authed Link',
-          href: '/authed-link'
-        }
-      ];
-    } else {
-      links = [
-        {
-          text: 'Public Link',
-          href: '/public-link',
-          featured: true
-        }
-      ];
-    }
+    // if (Session.authed()) {
+    //   links = [
+    //     {
+    //       text: 'Public Link',
+    //       href: '/public-link',
+    //       featured: true
+    //     },
+    //     {
+    //       text: 'Authed Link',
+    //       href: '/authed-link'
+    //     }
+    //   ];
+    // } else {
+    //   links = [
+    //     {
+    //       text: 'Public Link',
+    //       href: '/public-link',
+    //       featured: true
+    //     }
+    //   ];
+    // }
 
     return links.map((data, i) => {
       var classes = ['header-nav-link'];
@@ -55,7 +55,7 @@ class Header extends Component {
         <nav className="header-nav">
           <div className="header-left">
             <a href="/">
-              <img alt="Logo" src="" />
+              <div className="logo">TensorCI</div>
             </a>
           </div>
           <div className="header-right">

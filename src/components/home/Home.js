@@ -45,9 +45,14 @@ class Home extends Component {
   render() {
     return (
       <div id="home">
-        <div className="content">
-          <FormInput placeholder="Beta Access Code" required={true} ref={this.setBetaCodeInputRef}/>
-          <button onClick={this.loginWithGithub}>Login with GitHub</button>
+        <div className="main-content">
+          <div id="login">
+            <div className="lead-text">You should login with GitHub! Just do it.</div>
+            <div className="inputs">
+              <FormInput placeholder="Beta Access Code" required={true} ref={this.setBetaCodeInputRef}/>
+              <button className="primary-action-btn" onClick={this.loginWithGithub}>Login with GitHub</button>
+            </div>
+          </div>
         </div>
       </div>
     );
