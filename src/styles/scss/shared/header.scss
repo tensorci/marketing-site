@@ -37,12 +37,13 @@ header {
     height: 100%;
 
     .logo {
-      height: 100%;
-      line-height: $header-height;
+      height: 40px;
+      line-height: 40px;
       font-size: 25px;
       color: #fff;
       padding-left: 40px;
       letter-spacing: 0.3px;
+      margin-top: 20px;
     }
   }
 

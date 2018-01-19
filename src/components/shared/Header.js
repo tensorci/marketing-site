@@ -55,7 +55,7 @@ class Header extends Component {
         <nav className="header-nav">
           <div className="header-left">
             <a href="/">
-              <div className="logo">TensorCI</div>
+              <img className="logo" src="https://s3-us-west-1.amazonaws.com/jarvisdev/logo-w-icon-white.svg" alt="TensorCI" />
             </a>
           </div>
           <div className="header-right">
