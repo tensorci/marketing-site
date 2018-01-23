@@ -2,18 +2,18 @@
   position: relative;
 
   button {
-    width: 100%;
-    background-color: $primary;
-    border-radius: 3px;
-    height: 44px;
+    color: #fff;
     text-align: center;
-    font-family: Avenir-Next-Medium;
+    padding: 11px 0;
+    font-size: 18px;
+    border-radius: 3px;
     outline: none;
     border: none;
-    color: #fff;
+    width: 100%;
+    background-color: $primary;
 
     &:hover {
-      background-color: $primary; // should be $primary-hover
+      background-color: $primary-lighter;
     }
 
     &:active {
@@ -39,7 +39,7 @@
 
   &.complete {
     button {
-      background-color: $tertiary;
+      background-color: $primary;
     }
   }
 }
