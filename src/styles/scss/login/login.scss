@@ -18,7 +18,7 @@
   }
 
   .primary-action-btn {
-    background-color: #27A0B6;
+    background-color: #ff7277;
     color: #fff;
     text-align: center;
     padding: 11px 0;
@@ -28,9 +28,14 @@
     border: none;
     width: 100%;
     margin-top: 28px;
+    -webkit-transition: background-color 0.15s;
+    -moz-transition: background-color 0.15s;
+    -ms-transition: background-color 0.15s;
+    -o-transition: background-color 0.15s;
+    transition: background-color 0.15s;
 
     &:hover {
-      opacity: 0.9;
+      background-color: #FD8488;
     }
   }
 }
