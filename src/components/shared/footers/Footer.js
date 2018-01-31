@@ -40,7 +40,7 @@ class Footer extends Component {
                     <i className="fa fa-instagram"></i>
                   </a>
                 </div>
-                <div className="copyright">© 2017 TensorCI, Inc.</div>
+                <div className="copyright">© 2018 LatticeAI, Inc.</div>
               </div>
             </div>
           </div>
