@@ -51,7 +51,7 @@ class Home extends Component {
       <div id="home">
         <div className="main-content">
           <div id="login">
-            <div className="lead-text">You should login with GitHub. Just do it.</div>
+            <div className="lead-text">You should login with GitHub :)</div>
             <div className="inputs">
               <FormInput placeholder="Beta Access Code" required={true} ref={this.setBetaCodeInputRef}/>
               <div className="btn-container">
