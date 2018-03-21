@@ -3,8 +3,9 @@ import React, { Component } from 'react';
 import FooterLinkSection from './FooterLinkSection';
 
 const linkSections = {
-  quokka: [
+  tensorci: [
     ['/', 'Overview'],
+    ['http://docs.tensorci.com', 'Docs'],
     ['mailto:support@tensorci.com', 'Support'],
     ['mailto:team@tensorci.com', 'Contact']
   ],
@@ -24,7 +25,7 @@ class Footer extends Component {
       <footer>
         <div className="container-fluid">
           <div className="row">
-            <FooterLinkSection classes={['col-md-3', 'col-sm-3', 'col-xs-6']} title="TensorCI" links={linkSections.quokka} />
+            <FooterLinkSection classes={['col-md-3', 'col-sm-3', 'col-xs-6']} title="TensorCI" links={linkSections.tensorci} />
             <FooterLinkSection classes={['col-md-3', 'col-sm-3', 'col-xs-6']} title="Company" links={linkSections.company} />
             <FooterLinkSection classes={['col-md-3', 'col-sm-3', 'col-xs-6']} title="Legal" links={linkSections.legal} />
             <div className="footer-section col-md-3 col-sm-3 col-xs-6">
